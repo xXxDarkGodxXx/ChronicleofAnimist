@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 270, in script
+    python:
+ScriptError: could not find label 'start'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\DarkGod\Desktop\RenPy\renpy-6.99.14.3-sdk\renpy\bootstrap.py", line 306, in bootstrap
+    renpy.main.main()
+  File "C:\Users\DarkGod\Desktop\RenPy\renpy-6.99.14.3-sdk\renpy\main.py", line 513, in main
+    run(restart)
+  File "C:\Users\DarkGod\Desktop\RenPy\renpy-6.99.14.3-sdk\renpy\main.py", line 139, in run
+    renpy.execution.run_context(True)
+  File "C:\Users\DarkGod\Desktop\RenPy\renpy-6.99.14.3-sdk\renpy\execution.py", line 846, in run_context
+    context.run()
+  File "renpy/common/00start.rpy", line 270, in script
+    python:
+  File "C:\Users\DarkGod\Desktop\RenPy\renpy-6.99.14.3-sdk\renpy\script.py", line 873, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'start'.
+
+Windows-8-6.2.9200
+Ren'Py 6.99.14.3.3347
+Chronicle of animist 1.0
+Fri May 25 22:05:34 2018
