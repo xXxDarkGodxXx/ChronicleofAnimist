@@ -1,9 +1,9 @@
 ﻿# Вы можете расположить сценарий своей игры в этом файле.
 
 # Определение персонажей игры.
-define j = Character('Джэк', color="#c8ffc8")
+define j = Character('Джэк', color="#990000")
 
-define g = Character('ДРЯНЬ', color="#c8ffc8")
+define g = Character('ДРЯНЬ', color="#999966")
 
 define autor = Character(' ', color="#000000")
 
@@ -54,19 +54,19 @@ label start:
     scene jroom jack strike ghost
 
     j "Может."
-
+# И тут
     autor "Удар"
 
     j "Ты."
-
+# Ну бля
     autor "Удар"
 
     j "Наконец."
-
+# Бам
     autor "Удар."
 
     j "Заткнёшься?"
-
+# Шорх, шорх
     j "*Залез обратно на кровать*"
 
     scene jackonbed
